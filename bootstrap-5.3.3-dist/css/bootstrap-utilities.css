@@ -1823,6 +1823,7 @@
 
 .text-uppercase {
   text-transform: uppercase !important;
+  direction: rtl;
 }
 
 .text-capitalize {
