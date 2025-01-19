@@ -1,8 +1,456 @@
-.blue-bg{
+.blue-bg {
     background-color: #91AC8F;
-    
+
 }
-.black-bg{
+
+.black-bg {
     background-color: #4B5945;
     color: beige;
 }
+
+.section-7 {
+    position: relative;
+    width: 1165px;
+    height: 36px;
+    margin: 411px 0 0 300px;
+    z-index: 94;
+}
+
+.cultural {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Itim, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 94;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.children-2c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 354px;
+    color: #000000;
+    font-family: Itim, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 93;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.women-2d {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 707px;
+    color: #000000;
+    font-family: Itim, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 92;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.men-2e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 1070px;
+    color: #000000;
+    font-family: Itim, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 91;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.flex-row-cf {
+    position: relative;
+    width: 1157px;
+    height: 39px;
+    margin: 39px 0 0 300px;
+    z-index: 98;
+}
+
+.occasion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.clothing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 354px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 97;
+}
+
+.clothing-2f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 692px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 96;
+}
+
+.clothing-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 1070px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 95;
+}
+
+.flex-row-da {
+    position: relative;
+    width: 1128px;
+    height: 46px;
+    margin: 15px 0 0 330px;
+    z-index: 103;
+}
+
+.flag {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 99;
+}
+
+.shoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 40px;
+    top: 6px;
+    left: 322px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 103;
+}
+
+.bag-and-shoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 40px;
+    top: 6px;
+    left: 628px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 101;
+}
+
+.shoes-31 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 40px;
+    top: 6px;
+    left: 1038px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 102;
+}
+
+.flex-row-d-32 {
+    position: relative;
+    width: 1142px;
+    height: 46px;
+    margin: 15px 0 0 330px;
+    z-index: 105;
+}
+
+.plaque {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.sports {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 40px;
+    top: 6px;
+    left: 655px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 105;
+}
+
+.sports-33 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 40px;
+    top: 6px;
+    left: 1031px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 104;
+}
+
+
+a {
+    color: black;
+  
+    text-decoration: none;
+  
+}
+
+a:visited {
+    color: black;
+    
+}
+
+a:hover {
+    color: blue;
+    
+}
+
+a:active {
+    color: blue;
+    
+}
+
+.flex-row-34 {
+    position: relative;
+    width: 1294px;
+    height: 262px;
+    margin: 316px 0 0 240px;
+    z-index: 88;
+  }
+  .image-35 {
+    position: absolute;
+    width: 246px;
+    height: 262px;
+    top: 0;
+    left: 50%;
+    background: url(./assets/images/59b65e8acd9ce4362ae5b3d0c154cbe9ba7feb24.png)
+      no-repeat center;
+    background-size: cover;
+    transform: translate(-45.93%, 0);
+    z-index: 87;
+  }
+  .image-36 {
+    position: absolute;
+    width: 18.01%;
+    height: 99.24%;
+    top: 0;
+    left: 81.99%;
+    background: url(./assets/images/99a8297e4a5548af35cc11135c339cedbd45069c.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 86;
+  }
+  .image-37 {
+    position: absolute;
+    width: 254px;
+    height: 253px;
+    top: 9px;
+    left: 0;
+    background: url(./assets/images/92334d0ea2e747c771e7ad70fb6a087f68640158.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 88;
+  }
+  .flex-row-f {
+    position: relative;
+    width: 1283px;
+    height: 48px;
+    margin: 83px 0 0 240px;
+    z-index: 106;
+  }
+  .fast-shipping {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 0;
+    left: 1097px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 89;
+  }
+  .return-guarantee {
+    position: absolute;
+    width: 362px;
+    height: 39px;
+    top: 6px;
+    left: 0;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 106;
+    direction: rtl;
+  }
+  .return-guarantee-38 {
+    position: relative;
+    color: #000000;
+    font-family: Itim, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42.203px;
+    text-align: left;
+  }
+  .return-guarantee-39 {
+    position: relative;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42.203px;
+    text-align: left;
+    direction:rtl;
+  }
+  .product-guarantee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 39px;
+    top: 9px;
+    left: 579px;
+    color: #000000;
+    font-family: Jacques Francois Shadow, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 90;
+  }
