@@ -1,575 +1,80 @@
-.blue-bg {
-    background-color: #91AC8F;
 
-}
-
-.black-bg {
-    background-color: #4B5945;
-    color: beige;
-}
-
-.section-7 {
-    position: relative;
-    width: 1165px;
-    height: 36px;
-    margin: 411px 0 0 300px;
-    z-index: 94;
-}
-
-.cultural {
+body {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 36px;
-    top: 0;
-    left: 0;
-    color: #000000;
-    font-family: Itim, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 94;
-    -webkit-text-stroke: 1px #000000;
+    flex-wrap: nowrap; 
+    height: 100vh;
+    overflow-y: auto; 
+    background: #f1f1f1;
 }
-
-.children-2c {
+.filter-section, .products-section {
+    width: 50%; 
+    padding: 20px;
+}
+.filter-section {
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+.products-section {
+    background-color: white;
+    padding: 20px;
+}
+h3 {
+    margin-bottom: 20px;
+    color: #91ac8f; 
+}
+.slider-container {
+    margin-bottom: 20px;
+}
+.price-range {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 36px;
-    top: 0;
-    left: 354px;
-    color: #000000;
-    font-family: Itim, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 93;
-    -webkit-text-stroke: 1px #000000;
-}
-
-.women-2d {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 36px;
-    top: 0;
-    left: 707px;
-    color: #000000;
-    font-family: Itim, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 92;
-    -webkit-text-stroke: 1px #000000;
-}
-
-.men-2e {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 36px;
-    top: 0;
-    left: 1070px;
-    color: #000000;
-    font-family: Itim, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 91;
-    -webkit-text-stroke: 1px #000000;
-}
-
-.flex-row-cf {
-    position: relative;
-    width: 1157px;
-    height: 39px;
-    margin: 39px 0 0 300px;
-    z-index: 98;
-}
-
-.occasion {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 0;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 98;
-}
-
-.clothing {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 354px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 97;
-}
-
-.clothing-2f {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 692px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 96;
-}
-
-.clothing-30 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 1070px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 95;
-}
-
-.flex-row-da {
-    position: relative;
-    width: 1128px;
-    height: 46px;
-    margin: 15px 0 0 330px;
-    z-index: 103;
-}
-
-.flag {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 0;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 99;
-}
-
-.shoes {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 40px;
-    top: 6px;
-    left: 322px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 103;
-}
-
-.bag-and-shoes {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 40px;
-    top: 6px;
-    left: 628px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 101;
-}
-
-.shoes-31 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 40px;
-    top: 6px;
-    left: 1038px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 102;
-}
-
-.flex-row-d-32 {
-    position: relative;
-    width: 1142px;
-    height: 46px;
-    margin: 15px 0 0 330px;
-    z-index: 105;
-}
-
-.plaque {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 0;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 100;
-}
-
-.sports {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 40px;
-    top: 6px;
-    left: 655px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 105;
-}
-
-.sports-33 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 40px;
-    top: 6px;
-    left: 1031px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 104;
-}
-
-
-a {
-    color: black;
-  
-    text-decoration: none;
-  
-}
-
-a:visited {
-    color: black;
-    
-}
-
-a:hover {
-    color: blue;
-    
-}
-
-a:active {
-    color: blue;
-    
-}
-
-.flex-row-34 {
-    position: relative;
-    width: 1294px;
-    height: 262px;
-    margin: 316px 0 0 240px;
-    z-index: 88;
-  }
-  .image-35 {
-    position: absolute;
-    width: 246px;
-    height: 262px;
-    top: 0;
-    left: 50%;
-    background: url(./assets/images/59b65e8acd9ce4362ae5b3d0c154cbe9ba7feb24.png)
-      no-repeat center;
-    background-size: cover;
-    transform: translate(-45.93%, 0);
-    z-index: 87;
-  }
-  .image-36 {
-    position: absolute;
-    width: 18.01%;
-    height: 99.24%;
-    top: 0;
-    left: 81.99%;
-    background: url(./assets/images/99a8297e4a5548af35cc11135c339cedbd45069c.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 86;
-  }
-  .image-37 {
-    position: absolute;
-    width: 254px;
-    height: 253px;
-    top: 9px;
-    left: 0;
-    background: url(./assets/images/92334d0ea2e747c771e7ad70fb6a087f68640158.png)
-      no-repeat center;
-    background-size: cover;
-    z-index: 88;
-  }
-  .flex-row-f {
-    position: relative;
-    width: 1283px;
-    height: 48px;
-    margin: 83px 0 0 240px;
-    z-index: 106;
-  }
-  .fast-shipping {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 0;
-    left: 1097px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 89;
-  }
-  .return-guarantee {
-    position: absolute;
-    width: 362px;
-    height: 39px;
-    top: 6px;
-    left: 0;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    text-overflow: initial;
-    white-space: nowrap;
-    z-index: 106;
-    direction: rtl;
-  }
-  .return-guarantee-38 {
-    position: relative;
-    color: #000000;
-    font-family: Itim, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 42.203px;
-    text-align: left;
-  }
-  .return-guarantee-39 {
-    position: relative;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 42.203px;
-    text-align: left;
-    direction:rtl;
-  }
-  .product-guarantee {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 39px;
-    top: 9px;
-    left: 579px;
-    color: #000000;
-    font-family: Jacques Francois Shadow, var(--default-font-family);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 90;
-  }
-
-  .fontisto--instagram {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M16 12a4 4 0 1 0-1.172 2.829A3.84 3.84 0 0 0 16 12.06l-.001-.063zm2.16 0a6.135 6.135 0 1 1-1.797-4.359a5.92 5.92 0 0 1 1.798 4.256l-.001.109zm1.687-6.406v.002a1.44 1.44 0 1 1-.422-1.018c.256.251.415.601.415.988v.029v-.001zm-7.84-3.44l-1.195-.008q-1.086-.008-1.649 0t-1.508.047c-.585.02-1.14.078-1.683.17l.073-.01c-.425.07-.802.17-1.163.303l.043-.014a4.12 4.12 0 0 0-2.272 2.254l-.01.027a6 6 0 0 0-.284 1.083l-.005.037a12 12 0 0 0-.159 1.589l-.001.021q-.039.946-.047 1.508t0 1.649t.008 1.195t-.008 1.195t0 1.649t.047 1.508c.02.585.078 1.14.17 1.683l-.01-.073c.07.425.17.802.303 1.163l-.014-.043a4.12 4.12 0 0 0 2.254 2.272l.027.01c.318.119.695.219 1.083.284l.037.005c.469.082 1.024.14 1.588.159l.021.001q.946.039 1.508.047t1.649 0l1.188-.024l1.195.008q1.086.008 1.649 0t1.508-.047c.585-.02 1.14-.078 1.683-.17l-.073.01c.425-.07.802-.17 1.163-.303l-.043.014a4.12 4.12 0 0 0 2.272-2.254l.01-.027c.119-.318.219-.695.284-1.083l.005-.037c.082-.469.14-1.024.159-1.588l.001-.021q.039-.946.047-1.508t0-1.649t-.008-1.195t.008-1.195t0-1.649t-.047-1.508c-.02-.585-.078-1.14-.17-1.683l.01.073a6.3 6.3 0 0 0-.303-1.163l.014.043a4.12 4.12 0 0 0-2.254-2.272l-.027-.01a6 6 0 0 0-1.083-.284l-.037-.005a12 12 0 0 0-1.588-.159l-.021-.001q-.946-.039-1.508-.047t-1.649 0zM24 12q0 3.578-.08 4.953a6.64 6.64 0 0 1-6.985 6.968l.016.001q-1.375.08-4.953.08t-4.953-.08a6.64 6.64 0 0 1-6.968-6.985l-.001.016q-.08-1.375-.08-4.953t.08-4.953A6.64 6.64 0 0 1 7.061.079L7.045.078q1.375-.08 4.953-.08t4.953.08a6.64 6.64 0 0 1 6.968 6.985l.001-.016Q24 8.421 24 12'/%3E%3C/svg%3E");
-  }
-  .ri--twitter-x-fill {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z'/%3E%3C/svg%3E");
-  }
-  .akar-icons--telegram-fill {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none'%3E%3Cg clip-path='url(%23akarIconsTelegramFill0)'%3E%3Cpath fill='%23fff' fill-rule='evenodd' d='M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12S5.373 0 12 0s12 5.373 12 12M12.43 8.859q-1.75.728-6.998 3.014q-.852.339-.893.663c-.046.366.412.51 1.034.705l.263.084c.613.199 1.437.432 1.865.441q.583.012 1.302-.48q4.902-3.31 5.061-3.346c.075-.017.179-.039.249.024c.07.062.063.18.056.212c-.046.193-1.84 1.862-2.77 2.726c-.29.269-.495.46-.537.504q-.143.145-.282.279c-.57.548-.996.96.024 1.632c.49.323.882.59 1.273.856c.427.291.853.581 1.405.943q.21.14.405.28c.497.355.944.673 1.496.623c.32-.03.652-.331.82-1.23c.397-2.126 1.179-6.73 1.36-8.628a2 2 0 0 0-.02-.472a.5.5 0 0 0-.172-.325c-.143-.117-.365-.142-.465-.14c-.451.008-1.143.249-4.476 1.635' clip-rule='evenodd'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='akarIconsTelegramFill0'%3E%3Cpath fill='%23fff' d='M0 0h24v24H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/g%3E%3C/svg%3E");
-  }
-
-  .swiper-container {
-    width: 100%;
-    overflow: hidden; 
-    background-color: #91ac8f;
-}
-
-
-.swiper-slide {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 2px; 
+    gap: 10px;
+    margin-top: 10px;
 }
-
-.card1 {
-    width: 300px;
-    border-radius: 7%;
-    background-color: #4B5945;
+.size-options, .color-options {
+    margin-bottom: 20px;
+}
+.checkbox-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tags {
+    margin-top: 20px;
+}
+.price-box {
+    background-color: #91ac8f; 
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
     text-align: center;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    margin-left: 100px;
+    margin-bottom: 20px;
 }
-
-.card1:hover {
-    transform: scale(1.05);
-}
-
-.card1 img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.card1 h5, .card1 p {
-    margin: 10px 0;
-    color: white;
-}
-
-.card1 span {
-    font-size: 24px;
-    color: white;
-    margin: 5px;
-    display: inline-block;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
 .card img {
     width: 100%;
-    object-fit: cover;
+    height: auto;
 }
-
-.card h5, .card1 p {
-    margin: 10px 0;
-    color: #91ac8f;
+.card-body {
+    text-align: center;
 }
-
-.card span {
-    font-size: 24px;
-    color: #91ac8f;
-    margin: 5px;
-    display: inline-block;
+.add-to-cart, .view-more {
+    background-color: #F7CAB6; 
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
-.basil--heart-outline {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M3.25 10.03c0-2.7 2.37-4.78 5.15-4.78c1.433 0 2.695.672 3.6 1.542c.905-.87 2.166-1.542 3.6-1.542c2.78 0 5.15 2.08 5.15 4.78c0 1.85-.789 3.476-1.882 4.852c-1.09 1.372-2.518 2.537-3.884 3.484c-.523.362-1.05.695-1.534.941c-.453.231-.975.443-1.45.443s-.996-.212-1.45-.443a14 14 0 0 1-1.533-.941c-1.367-.947-2.794-2.112-3.885-3.484C4.039 13.506 3.25 11.88 3.25 10.03M8.4 6.75c-2.08 0-3.65 1.53-3.65 3.28c0 1.403.596 2.71 1.556 3.918c.962 1.21 2.257 2.279 3.565 3.185c.495.343.96.634 1.36.838c.428.218.676.279.769.279s.341-.061.77-.28a12 12 0 0 0 1.36-.837c1.307-.906 2.602-1.974 3.564-3.185c.96-1.208 1.556-2.515 1.556-3.918c0-1.75-1.57-3.28-3.65-3.28c-1.194 0-2.31.713-3.005 1.619a.75.75 0 0 1-1.19 0C10.71 7.463 9.595 6.75 8.4 6.75' clip-rule='evenodd'/%3E%3C/svg%3E");
-    background-color: currentColor;
-    -webkit-mask-image: var(--svg);
-    mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-  }
-
-  .basil--shopping-cart-outline {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M19.148 5.25H5.335l-1.18-2.115A.75.75 0 0 0 3.5 2.75H2a.75.75 0 0 0 0 1.5h1.06l1.164 2.088L6.91 12.28l.003.006l.237.523l-2.697 2.877a.75.75 0 0 0 .462 1.258l2.458.281a40.7 40.7 0 0 0 9.254 0l2.458-.28a.75.75 0 0 0-.17-1.491l-2.458.28a39.3 39.3 0 0 1-8.914 0l-.975-.11l1.98-2.112l.053-.064l.752.098c1.055.138 2.122.165 3.182.08a9.3 9.3 0 0 0 6.366-3.268l.579-.685l.053-.072l1.078-1.642c.764-1.164-.071-2.71-1.463-2.71M8.656 11.944a.48.48 0 0 1-.377-.278l-.002-.003l-2.22-4.913h13.09a.25.25 0 0 1 .21.387l-1.053 1.604l-.549.65a7.8 7.8 0 0 1-5.338 2.741c-.957.076-1.919.052-2.87-.072z' clip-rule='evenodd'/%3E%3Cpath fill='%23000' d='M6.5 18.5a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3M16 20a1.5 1.5 0 1 1 3 0a1.5 1.5 0 0 1-3 0'/%3E%3C/svg%3E");
-    background-color: currentColor;
-    -webkit-mask-image: var(--svg);
-    mask-image: var(--svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-  }
+.success-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

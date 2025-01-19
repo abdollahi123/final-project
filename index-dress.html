@@ -10,13 +10,111 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style-dress.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style-dress.css">
 </head>
+
 <body>
-    <div class="section-7">
+    <!-- بخش فیلتر راست -->
+    <div class="filter-section">
+        <h3>فیلتر بر اساس</h3>
+        <div class="slider-container">
+            <label for="price-range">قیمت:</label>
+            <input type="range" id="price-range" min="0" max="10000000" step="100000">
+            <div class="price-range">
+                <span>0</span>
+                <span>10,000,000</span>
+            </div>
+        </div>
+        <button class="apply-filter" onclick="applyFilter()">اعمال</button>
+        <div class="size-options">
+            <h5>سایز:</h5>
+            <div class="checkbox-container">
+                <!-- سایزها -->
+                <label><input type="checkbox" value="size_32_36"> سایز ۳۶-۳۲</label>
+                <label><input type="checkbox" value="size_36_40"> سایز ۴۰-۳۶</label>
+                <label><input type="checkbox" value="size_40_42"> سایز ۴۰-۴۲</label>
+                <label><input type="checkbox" value="size_youth"> سایز نوجوان</label>
+                <label><input type="checkbox" value="height_120"> قد ۱۲۰</label>
+                <label><input type="checkbox" value="height_150"> قد ۱۵۰</label>
+                <label><input type="checkbox" value="height_165"> قد ۱۶۵</label>
+            </div>
+        </div>
+        <div class="color-options">
+            <h5>رنگ:</h5>
+            <div class="checkbox-container">
+                <!-- رنگ‌ها -->
+                <label><input type="checkbox" value="blue"> آبی</label>
+                <label><input type="checkbox" value="red"> قرمز</label>
+                <label><input type="checkbox" value="pink"> صورتی</label>
+                <label><input type="checkbox" value="peach"> گلبهی</label>
+                <label><input type="checkbox" value="light_blue"> آبی روشن</label>
+                <label><input type="checkbox" value="royal_green"> سبز سلطنتی</label>
+                <label><input type="checkbox" value="light_gray"> طوسی روشن</label>
+                <label><input type="checkbox" value="beige"> کرم بژ</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- بخش محصولات چپ -->
+    <div class="products-section">
+        <h3 style="text-align: end;">مرتب سازی بر اساس جدیدترین ها</h3>
+        <div class="card-columns">
+            <!-- 15 کارت نمونه -->
+            <div class="card">
+                <img src="/image/nju.jpg" class="card-img-top" alt="محصول">
+                <div class="card-body">
+                    <h5 class="card-title">عبای زنانه طرح اسماء کد 03</h5>
+                    <a href="/index-sale.html"><button class="add-to-cart">سبد خرید</button></a>
+                    <button class="view-more">مشاهده بیشتر</button>
+                </div>
+
+
+            </div>
+            <div class="card">
+                <img src="/image/oRdN6BWbnt.jpg" class="card-img-top" alt="محصول">
+                <div class="card-body">
+                    <h5 class="card-title">عبای زنانه طرح مهدا کد 04</h5>
+                    <button class="add-to-cart">سبد خرید</button>
+                    <button class="view-more">مشاهده بیشتر</button>
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <img src="/image/hZTmrLI346.jpg" class="card-img-top" alt="محصول">
+                <div class="card-body">
+                    <h5 class="card-title"> پیراهن زنانه طرح سمانه کد 05</h5>
+                    <button class="add-to-cart">سبد خرید</button>
+                    <button class="view-more">مشاهده بیشتر</button>
+                </div>
+
+
+            </div>
+
+            
+          
+
+           
+
+
+        </div>
+    </div>
+
+    <!-- نمایش موفقیت -->
+    <div class="success-modal" id="successModal">
+        <p>فیلتر با موفقیت اعمال شد!</p>
+    </div>
+
+
+
+
+
+
+
+    <!-- <div class="section-7">
         <span class="cultural">فرهنگی</span><span class="children-2c">بچگانه</span><span
             class="women-2d">زنانه</span><span class="men-2e">مردانه</span>
     </div>
@@ -107,9 +205,12 @@
             <a class="text-white" href="#">سایت شما</a>
         </div>
     </footer>
+ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -119,3 +220,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/script-dress.js"></script>
+</body>
+
+</html>
