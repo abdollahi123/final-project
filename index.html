@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -36,9 +37,10 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
 
-                        <li class="nav-item">
+                        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#loginModal">
                             <a class="nav-link" href="#">
                                 <img src="image/log-in.png">
+                                
                             </a>
                         </li>
 
@@ -145,6 +147,9 @@
             </div>
         </nav>
     </header>
+    
+
+<body>
     <main>
         <div id="carouselExample" class="carousel slide blue-bg">
             <div class="carousel-inner">
@@ -153,21 +158,20 @@
                 </div>
                 <div class="carousel-item">
                     <img src="/image/Artboard 2.png" class="d-block w-100" alt="...">
-
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </main>
 
+   
 
 
 
@@ -180,7 +184,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-12 col-lg-3">
-                <div class="card p-3 shadow blue-bg ">
+                <div class="card p-3 shadow blue-bg  ">
                     <img src="image/images (1).jpg" alt="مردانه">
                     <a href="#" class="btn btn-secondary " style="margin-top: 7px;">مردانه</a>
                     <p class="card-text"></p>
@@ -188,7 +192,7 @@
             </div>
 
             <div class="col-12 col-lg-3">
-                <div class="card p-3 shadow blue-bg">
+                <div class="card p-3 shadow blue-bg ">
                     <img src="image/عبا-مشکی-38.jpg" alt="زنانه">
                     <a href="#" class="btn btn-secondary " style="margin-top: 7px;">زنانه</a>
                     <p class="card-text"></p>
@@ -196,7 +200,7 @@
             </div>
 
             <div class="col-12 col-lg-3">
-                <div class="card p-3 shadow blue-bg">
+                <div class="card p-3 shadow blue-bg ">
                     <img src="image/6.webp" alt="بچگانه">
                     <a href="#" class="btn btn-secondary " style="margin-top: 7px;">بچگانه</a>
                     <p class="card-text"></p>
@@ -226,13 +230,13 @@
         <div class="swiper-wrapper">
           
             <div class="swiper-slide">
-                <div class="card1" style="width: 18rem;">
-                    <img src="/image/3.png" class="card-img-top" alt="...">
+                <div class="card1" style="width: 24rem;">
+                    <img src="/image/234.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">کت بچگانه طرح ثمین کد 03</h5>
-                        <p class="card-text">1.400.000 تومان</p>
-                        <span class="basil--heart-outline"></span>
-                        <span class="basil--shopping-cart-outline"></span>
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <span class=""></span>
+                        <span class=""></span>
                     </div>
                 </div>
             </div>
@@ -292,16 +296,12 @@
                 </div>
             </div>
 
-            <!-- تکرار برای کارت‌های دیگر -->
+        
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
 
-        <div class="swiper-button-prev"></div>
     </div>
 
+    
 
 
 
@@ -402,11 +402,63 @@
 
 
 
+
+    
+
+    <!-- مدال اول -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">ورود یا ثبت نام</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="بستن"></button>
+                </div>
+                <div class="modal-body">
+                    <p>شماره موبایل خود را وارد کنید.</p>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="شماره موبایل خود را وارد کنید" maxlength="11" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                    <button type="button" class="btn btn-primary" id="nextButton">ادامه</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- مدال دوم -->
+    <div class="modal fade" id="verificationModal" tabindex="-1" aria-labelledby="verificationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verificationModalLabel">کد ارسال شده به شماره ** را وارد کنید</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="بستن"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="number" class="form-control" placeholder="کد تایید را وارد کنید">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                    <button type="button" class="btn btn-primary">ورود</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

@@ -25,3 +25,10 @@ var swiper = new Swiper('.swiper-container', {
         },
     },
 });
+
+document.getElementById('nextButton').addEventListener('click', function() {
+    // بستن مدال اول
+    $('#loginModal').modal('hide');
+    // باز کردن مدال دوم
+    $('#verificationModal').modal('show');
+});
